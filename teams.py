@@ -58,4 +58,4 @@ async def on_message(message):
             await client.delete_message(message)
         
 
-client.run('Mjc5ODQ0MzYzMjY4NTIxOTg0.C4FXFQ.Egg9ktpljx8FrR6O5lMMBbJkTxs')
+client.run('client')
