@@ -53,7 +53,7 @@ async def on_message(message):
     if (message.content.find("!sun") >-1 or message.content.find("!Sun") >-1) and message.author.name=="Sfelman":
         await client.delete_message(message)
     for i in badwords:
-        if message.content.find(i) > -1:
+        if i in message.content:
             await client.send_message(message.author, "Chill with the language")
             await client.delete_message(message)
         
